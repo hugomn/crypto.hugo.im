@@ -19,6 +19,7 @@ export default async function handler(
     "LINKBTC",
     "SOLBTC",
     "SHIBEUR",
+    "VETEUR",
   ];
   const result: Array<TickerPrice> = [];
   for (const symbol of symbols) {
