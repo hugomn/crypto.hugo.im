@@ -20,6 +20,7 @@ export default async function handler(
     "SOLBTC",
     "SHIBEUR",
     "VETEUR",
+    "LUNAEUR",
   ];
   const result: Array<TickerPrice> = [];
   for (const symbol of symbols) {
