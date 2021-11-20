@@ -1,34 +1,11 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-
-type TickerPrice = {
-  symbol: string;
-  price: string;
-};
+import { TickerPrice } from "../../src/config/types";
+import getPrices from "../../src/providers/coingecko";
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<TickerPrice[]>
 ) {
-  const symbols = [
-    "BTCEUR",
-    "ADABTC",
-    "ATOMBTC",
-    "COTIBTC",
-    "DOTBTC",
-    "ETHBTC",
-    "LINKBTC",
-    "SOLBTC",
-    "SHIBEUR",
-    "VETEUR",
-    "LUNAEUR",
-  ];
-  const result: Array<TickerPrice> = [];
-  for (const symbol of symbols) {
-    const response = await fetch(
-      `https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`
-    );
-    const body = await response.json();
-    result.push({ symbol, price: body.price });
-  }
+  const result = await getPrices();
   res.status(200).json(result);
 }
