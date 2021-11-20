@@ -20,15 +20,15 @@ export const binanceSymbols = [
 export const coingeckoCoins: Coin[] = [
   { id: "bitcoin", symbol: "BTC" },
   { id: "cardano", symbol: "ADA" },
-  { id: "chainlink", symbol: "LINK" },
   { id: "cosmos", symbol: "ATOM" },
   { id: "coti", symbol: "COTI" },
-  { id: "ethereum", symbol: "ETH" },
   { id: "polkadot", symbol: "DOT" },
+  { id: "ethereum", symbol: "ETH" },
+  { id: "chainlink", symbol: "LINK" },
+  { id: "terra-luna", symbol: "LUNA" },
   { id: "render-token", symbol: "RNDR" },
   { id: "shiba-inu", symbol: "SHIB" },
   { id: "solana", symbol: "SOL" },
-  { id: "terra-luna", symbol: "LUNA" },
   { id: "vechain", symbol: "VET" },
   { id: "wilder-world", symbol: "WILD" },
 ];
