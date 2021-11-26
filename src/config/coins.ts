@@ -24,6 +24,7 @@ export const coingeckoCoins: Coin[] = [
   { id: "coti", symbol: "COTI" },
   { id: "polkadot", symbol: "DOT" },
   { id: "ethereum", symbol: "ETH" },
+  { id: "fantom", symbol: "FTM" },
   { id: "chainlink", symbol: "LINK" },
   { id: "terra-luna", symbol: "LUNA" },
   { id: "render-token", symbol: "RNDR" },
