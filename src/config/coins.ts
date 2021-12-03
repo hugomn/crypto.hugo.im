@@ -18,9 +18,10 @@ export const binanceSymbols = [
 ];
 
 export const coingeckoCoins: Coin[] = [
-  { id: "bitcoin", symbol: "BTC" },
   { id: "cardano", symbol: "ADA" },
   { id: "cosmos", symbol: "ATOM" },
+  { id: "avalanche-2", symbol: "AVAX" },
+  { id: "bitcoin", symbol: "BTC" },
   { id: "coti", symbol: "COTI" },
   { id: "polkadot", symbol: "DOT" },
   { id: "ethereum", symbol: "ETH" },
