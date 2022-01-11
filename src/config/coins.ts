@@ -29,7 +29,7 @@ export const coingeckoCoins: Coin[] = [
   { id: "chainlink", symbol: "LINK" },
   { id: "terra-luna", symbol: "LUNA" },
   { id: "render-token", symbol: "RNDR" },
-  { id: "rune", symbol: "RUNE" },
+  { id: "thorchain", symbol: "RUNE" },
   { id: "shiba-inu", symbol: "SHIB" },
   { id: "solana", symbol: "SOL" },
   { id: "vechain", symbol: "VET" },
