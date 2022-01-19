@@ -32,6 +32,7 @@ export const coingeckoCoins: Coin[] = [
   { id: "thorchain", symbol: "RUNE" },
   { id: "shiba-inu", symbol: "SHIB" },
   { id: "solana", symbol: "SOL" },
+  { id: "tether", symbol: "USDT" },
   { id: "vechain", symbol: "VET" },
   { id: "wilder-world", symbol: "WILD" },
 ];
