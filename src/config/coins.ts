@@ -34,6 +34,7 @@ export const coingeckoCoins: Coin[] = [
   { id: "solana", symbol: "SOL" },
   { id: "theta-token", symbol: "THETA" },
   { id: "tether", symbol: "USDT" },
+  { id: "terrausd", symbol: "UST" },
   { id: "vechain", symbol: "VET" },
   { id: "wilder-world", symbol: "WILD" },
 ];
